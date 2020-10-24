@@ -1,11 +1,4 @@
-# Estudo de Caso 2 - Construindo Um Modelo de Decisão Para Risco de Crédito
-
-# Obs: Caso tenha problemas com a acentuação, consulte este link:
-# https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding
-
-# Definindo o diretório de trabalho
-getwd()
-setwd("~/Dropbox/DSA/MachineLearning2.0/Cap08/R")
+#  Construindo Um Modelo de Decisão Para Risco de Crédito
 
 # Calculando a entropia de duas classes
 -0.60 * log2(0.60) - 0.40 * log2(0.40)
