@@ -1,23 +1,13 @@
-# Big Data na Prática 1 - Analisando a Temperatura Média nas Cidades Brasileiras
-
-# Obs: Caso tenha problemas com a acentuação, consulte este link:
-# https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding
-
-# Configurando o diretório de trabalho
-# Coloque entre aspas o diretório de trabalho que você está usando no seu computador
-# Não use diretórios com espaço no nome
-setwd("C:/FCD/BigDataRAzure/Cap03")
-getwd()
+# Analisando a Temperatura Média nas Cidades Brasileiras
 
 # Dataset:
 # Berkeley Earth
 # http://berkeleyearth.org/data
 # TemperaturasGlobais.csv ~ 78 MB (zip) ~ 496 MB (unzip)
-# Façs o download do arquivo zip no link abaixo e descompacte na mesma pasta onde está este script. 
 # https://drive.google.com/open?id=1nSwP3Y0V7gncbnG_DccNhrTRxmUNqMqa
 
 # Instalando e Carregando Pacotes
-# Obs: os pacotes precisam ser instalados apenas uma vez. Se já instalou em outros scripts, não é necessário instalar novamente!
+
 install.packages("readr")
 install.packages("data.table")
 install.packages("dplyr")
