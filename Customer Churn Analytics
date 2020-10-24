@@ -1,4 +1,4 @@
-# Big Data na Prática 4 - Customer Churn Analytics 
+# Customer Churn Analytics 
 
 # A rotatividade (churn) de clientes ocorre quando clientes ou assinantes param de fazer negócios 
 # com uma empresa ou serviço. Também é conhecido como perda de clientes ou taxa de cancelamento.
@@ -13,11 +13,6 @@
 # Cada linha representa um cliente e cada coluna contém os atributos desse cliente.
 
 # https://www.ibm.com/communities/analytics/watson-analytics-blog/guide-to-sample-datasets/
-
-# Definindo o diretório de trabalho
-setwd("C:/FCD/BigDataRAzure/Cap06")
-getwd()
-
 
 # Carregando os pacotes
 library(plyr)
