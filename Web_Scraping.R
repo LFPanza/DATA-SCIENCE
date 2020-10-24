@@ -1,18 +1,4 @@
-# Estudo de Caso - Extraindo Dados da Web com Web Scraping em R
-
-# Web Crawling - "rastejar" por uma web page ou site buscando dados
-# Web Scraping - "raspar" os dados de uma web page
-
-
-# Obs: Caso tenha problemas com a acentuação, consulte este link:
-# https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding
-
-# Configurando o diretório de trabalho
-# Coloque entre aspas o diretório de trabalho que você está usando no seu computador
-# Não use diretórios com espaço no nome
-setwd("C:/FCD/BigDataRAzure/Cap07")
-getwd()
-
+# Extraindo Dados da Web com Web Scraping em R
 
 # Pacotes R para Web Scraping
 # RCurl
