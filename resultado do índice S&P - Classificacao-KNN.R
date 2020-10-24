@@ -1,18 +1,11 @@
 # Classificação KNN em R
 
-# Classificação KNN em R - Definindo Um Problema Para Classificação Binária
+# Classificação Binária
 
 # Prevendo o resultado do índice S&P (The Standard & Poor's 500) do
 # American stock market index (NYSE or NASDAQ)
 
 # https://rdrr.io/cran/ISLR/man/Smarket.html
-
-# Obs: Caso tenha problemas com a acentuação, consulte este link:
-# https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding
-
-# Definindo o diretório de trabalho
-getwd()
-setwd("~/Dropbox/DSA/MachineLearning2.0/Cap06/R")
 
 # Instalando os pacotes
 install.packages("ISLR")
