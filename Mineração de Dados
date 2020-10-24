@@ -1,11 +1,4 @@
-# Big Data na Prática 3 - Mineração de Regra de Associação 
-
-# Esse é um material de bônus. 
-# Conteúdo sobre ese tema pode ser encontrado nos cursos: 
-
-# Business Analytics 
-# Análise em Grafos Para Big Data
-# Data Mining e Modelagem Preditiva
+# Mineração de Regra de Associação 
 
 # Embora tenha mais de 20 anos, o Market Basket Analysis (MBA) (ou Mineração de Regras de Associação) 
 # ainda pode ser uma técnica muito útil para obter insights em grandes conjuntos de dados transacionais. 
@@ -20,7 +13,7 @@
 # que o cliente compre o item B. Regras mais complexas também são possíveis {A, B ==> D, F}, quando um cliente 
 # compra os itens A e B, é provável que ele compre os itens D e F.
 
-# Neste Big Data na Pratica, vamos buscar a associação entre os clubes de futebol da Europa e responder a pergunta:
+# Neste projeto, vamos buscar a associação entre os clubes de futebol da Europa e responder a pergunta:
 
 # Quais clubes mais realizam transações de compra e venda de jogadores, entre si?
 
@@ -50,13 +43,6 @@
 # Todas as regras que obtemos da mineração de regras de associação formam um gráfico de rede. 
 # Os clubes de futebol individuais são os nós do gráfico e cada regra "de ==> para" é uma aresta (edge) do gráfico de rede.
 
-# Em R, os gráficos de rede podem ser visualizados bem por meio do pacote visNetwork. 
-
-# Vamos começar?
-
-# Não use diretórios com espaço no nome
-setwd("C:/FCD/BigDataRAzure/Cap05")
-getwd()
 
 # Pacotes
 install.packages("RSQLite")
