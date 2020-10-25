@@ -1,12 +1,4 @@
-# Mini-Projeto 1 - Análise de Sentimentos em Redes Sociais
-
-# Obs: Caso tenha problemas com a acentuação, consulte este link:
-# https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding
-
-# Configurando o diretório de trabalho
-# Coloque entre aspas o diretório de trabalho que você está usando no seu computador
-setwd("~/Dropbox/DSA/BigDataAnalytics-R-Azure/Projetos/Mini-Projeto01")
-getwd()
+# Análise de Sentimentos em Redes Sociais
 
 ## Etapa 1 - Pacotes e Autenticação
 
